@@ -1,0 +1,10 @@
+Test cases are in the form
+	from until r_val g_val b_val
+where from, until, r_val, g_val, and b_val are integers from 0 to 255
+
+Bugs:
+	1. For some reason, the program returns a segmentation fault when r_val and g_val are equal to 100
+	2. Cannot accommodate more than one test case in a file for some reason
+
+Usage:
+	./main test_case_input image_input
